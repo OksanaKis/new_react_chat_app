@@ -2,12 +2,13 @@ import React from 'react';
 import './Sidebar.css';
 import { Avatar } from '@mui/material';
 import search from "../images/search.png";
+import SidebarChat from "../components/SidebarChat";
 
 function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar__header">
-                <Avatar/>
+                <Avatar className='sidebar__avatar'/>
                 <div className="sidebar__headerRight"></div>
             </div>
             <div className="sidebar__search">
@@ -18,6 +19,7 @@ function Sidebar() {
             </div>
             <div className="sidebar__chats">
             <h2>Chats</h2>
+            <SidebarChat/>
             </div>
         </div>
     )

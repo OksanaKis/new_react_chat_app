@@ -15,6 +15,10 @@
     padding-top: 15px;
   }
 
+  .sidebar__avatar {
+    margin: 20px;
+  }
+
   .sidebar__search {
     display: flex;
     align-items: center;
@@ -40,7 +44,7 @@
     margin-left: 10px;
   }
 
-  .sidebar_chats {
+  .sidebar__chats {
     background-color: #f6f6f6;
     flex: 1;
     overflow: scroll;
@@ -48,7 +52,7 @@
 
   .sidebar__chats > h2 {
     color: #232b2b;
-    margin: 30px;
+    margin: 20px;
   }
 
   .search {
